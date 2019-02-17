@@ -28,47 +28,47 @@ print(favourite_colors[0])
 #Ages
 age_fam = [17, 13, 15, 19, 10]
 
-print(ages(0))
+print(age_fam[0])
 
 
 #flip coin lul
 
 coin_flip = ["heads", "tails" "heads", "tails", "heads"]
 
-print(coin_flip(3))
+print(coin_flip[3])
 
 #artist
 
 fav_artist = ["Billy Ray", "AMV", "The Rolling Stones"]
 
-print(fav_artist(2))
+print(fav_artist[2])
 
 #Fav Words
 three_fav_words = {
-'cover me': "watch my six"
-'AYOL' : "Are You Online"
-'Home' : "I wanna go Home"
+'cover me':'watch my six',
+'AYOL':'Are You Online',
+'Home': 'I wanna go Home'
 }
-print(three_fav_words('AYOL'))
+print(three_fav_words['AYOL'])
 
 #movie
 fav_movie = {
-	'Kick Ass':"2015"
-	'Dragon Ball Super Movie': '2018'	
-	'A Movie': "2016"
+	'Kick Ass':"2015",
+	'Dragon Ball Super Movie': '2018',	
+	'A Movie': "2016",
 }
 
-print(fav_movie("Kick Ass"))
+print(fav_movie["Kick Ass"])
 
 #cities
 
 cities_population = {
-	"Toronto": "2.81 million"
-	"Brampton": "520,911 thousand"
+	"Toronto": "2.81 million",
+	"Brampton": "520,911 thousand",
 	"Milton":"110,128 thousand"
 }
 
-print(cities_population("Toronto"))
+print(cities_population["Toronto"])
 
 #Family Age
 age_fam = {
