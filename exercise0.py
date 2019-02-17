@@ -33,7 +33,7 @@ print(age_fam[0])
 
 #flip coin lul
 
-coin_flip = ["heads", "tails" "heads", "tails", "heads"]
+coin_flip = ["heads", "tails", "heads", "tails", "heads"]
 
 print(coin_flip[3])
 
