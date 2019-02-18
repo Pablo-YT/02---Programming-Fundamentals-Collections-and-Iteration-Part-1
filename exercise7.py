@@ -18,9 +18,11 @@ while text < 20:
 
 
 text_list = ["I will not skateboard in the halls"]
-
-for stuff in text_list:
+message = 0
+while message < 20:
 	print(text_list)
+	message += 1
+	
 
 
 numbers = []
