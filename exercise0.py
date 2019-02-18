@@ -22,7 +22,7 @@
 
 
 #FAV Color
-favourite_colors = ["red" , "yellow", "black" "purple"]
+favourite_colors = ["red" , "yellow", "black" ,"purple"]
 print(favourite_colors[0])
 
 #Ages
