@@ -17,15 +17,18 @@ while text < 20:
 	text +=1
 
 
-text_list = ["I will not skateboard in the halls"]
-message = 0
-while message < 20:
-	print(text_list)
-	message += 1
+text_list = []
+for n in range(0,20):
+    text_list.append('I will not skateboard in the halls')
+print(text_list)
+
 	
+a_list = list(range(1,51))
 
+list_num = []
+for number in range(1,51):
+    list_num.append(number)
+    list_num.append(number)
+    list_num.append(number)
 
-numbers = []
-
-numbers.extend(range(1,51))
-print(numbers)
+print(list_num)
